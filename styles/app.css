@@ -1,0 +1,61 @@
+/* General styles / Reset  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background: hsl(212, 45%, 89%);
+}
+
+img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+
+/* Card Styles */
+
+.container {
+	min-width: 375px;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	max-width: 330px;
+	background: hsl(0, 0%, 100%);
+	padding: 15px;
+	border-radius: 25px;
+	text-align: center;
+	box-shadow:  26px 26px 75px #d3d3d3,
+                -26px -26px 75px #ededed;
+}
+
+.card-content {
+	padding-inline: 20px;
+	font-family: 'Outfit', sans-serif;
+}
+
+.card h1 {
+	font-size: 1.4rem;
+	font-weight: 700;
+	padding-block: 20px;
+	color: hsl(218, 44%, 22%);
+}
+
+.card p {
+	font-size: 15px;
+	padding-bottom: 30px;
+	color: hsl(220, 15%, 55%);
+}
